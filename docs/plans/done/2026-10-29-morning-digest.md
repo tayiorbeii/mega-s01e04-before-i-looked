@@ -1,6 +1,6 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
 ---
@@ -77,3 +77,17 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| § | Issue | Title |
+|---|-------|-------|
+| 1 | [#1](https://github.com/tayiorbeii/mega-s01e04-before-i-looked/issues/1) | Run-log reader and shared digest types |
+| 2a | [#2](https://github.com/tayiorbeii/mega-s01e04-before-i-looked/issues/2) | Server-rendered digest page |
+| 2b | [#3](https://github.com/tayiorbeii/mega-s01e04-before-i-looked/issues/3) | Digest JSON route |
+| 2c | [#4](https://github.com/tayiorbeii/mega-s01e04-before-i-looked/issues/4) | Status-board links and per-night counts |
+| 2d | [#5](https://github.com/tayiorbeii/mega-s01e04-before-i-looked/issues/5) | Digest route tests |
+| 3 | [#6](https://github.com/tayiorbeii/mega-s01e04-before-i-looked/issues/6) | Save and submit public digest preview |
+| 4 | [#7](https://github.com/tayiorbeii/mega-s01e04-before-i-looked/issues/7) | Remove preview marker after review and archive the plan |
+
+Reviewed preview, with its marker removed after human approval: https://mega-s01e04-before-i-looked-two.vercel.app. See ADR 0003.
